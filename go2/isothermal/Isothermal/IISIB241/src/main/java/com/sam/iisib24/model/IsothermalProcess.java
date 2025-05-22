@@ -25,7 +25,7 @@ public class IsothermalProcess {
         this.M = M;
     }
 
-    // Вычисление давления при заданном объёме
+    // Вычисление давления
     public double calculatePressure(double V) {
         double V_m3 = V / 1000.0;
         return (m * R * T0) / (M * V_m3) / 1000.0;

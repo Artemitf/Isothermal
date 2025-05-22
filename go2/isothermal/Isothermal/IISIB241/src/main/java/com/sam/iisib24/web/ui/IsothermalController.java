@@ -17,7 +17,6 @@ public class IsothermalController {
     private static final Logger log = LoggerFactory.getLogger(IsothermalController.class);
     private final IsothermalProcess process;
 
-    @Autowired
     public IsothermalController(IsothermalProcess process) {
         this.process = process;
     }
